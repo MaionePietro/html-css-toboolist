@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    display: inline;
+}
+main{
+    background-color: rgb(245,247,248);
+}
+
+
+.button{
+    border: none;
+    border-radius: 4px;
+
+}
+.uno{
+    background-color: rgb(61,164,239);
+    color: white;
+}
+.due{
+    background-color: white;
+    color: rgb(198,204,209);
+    border: 1px solid rgb(198,204,209);
+
+}
