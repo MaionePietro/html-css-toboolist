@@ -1,33 +1,46 @@
+/* Set pagia */
 *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: sans-serif;
 }
-h1{
-   display: inline;
-   vertical-align:middle; 
-}
 
-main{
-    padding-top: 30px;
-    background-color: rgb(245,247,248);
-    padding-bottom: 20px;
-}
-
+/* Set posizione centrale contenitori */
 .center{
     margin: 0 auto;
     max-width: 700px;
     padding-left: 40px;
 }
 
+/* logo/titolo */
+img{
+    vertical-align:middle;
+}
+h1{
+   display: inline;
+   vertical-align:middle;
+}
+
+/* contenitore liste */
+main{
+    padding-top: 30px;
+    background-color: rgb(245,247,248);
+    padding-bottom: 20px;
+}
+
+/* contenitore bottoni/set bottoni */
 .option{
     background-color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 6px;
 }
 .button{
     border: none;
     border-radius: 4px;
     padding: 5px 10px;
-
 }
 .uno{
     background-color: rgb(61,164,239);
@@ -39,19 +52,44 @@ main{
     border: 1px solid rgb(198,204,209);
 }
 
-
+/* Lista */
 .list{
     background-color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 1px;
 }
 ul{
-    margin-top: 2px;
+    margin-top: 20px;
 }
 li{
-    margin-top: 10px;
-    
+    margin-top: 13px;
+    font-size: small;
+    margin-left: 20px;
+    list-style-type: none;
 }
+
+/* check/cross */
+.circleG{
+    font-size: xx-small;
+    padding: 3px;
+    margin-right: 5px;
+    color: green;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.circleR{
+    font-size: xx-small;
+    padding: 3px;
+    margin-right: 5px;
+    color: red;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
 
 
 
