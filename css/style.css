@@ -38,7 +38,32 @@ main{
     border: 1px solid rgb(198,204,209);
 }
 
+
 .list{
     background-color: white;
 }
 
+
+
+.pr{
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: xx-small;
+    color: white;
+}
+.blu{
+    background-color: rgb(59,161,231);
+}
+.orang{
+    background-color: rgb(240,147,45);
+}
+.green{
+    background-color: rgb(167,194,34);
+}
+.viola{
+    background-color: rgb(145,103,224);
+}
+.rosa{
+    background-color: rgb(211,88,151);
+}
