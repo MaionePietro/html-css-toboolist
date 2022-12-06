@@ -1,16 +1,15 @@
 *{
     font-family: sans-serif;
 }
-img{
-    vertical-align: auto;
-}
 h1{
-   display: inline-block;
-   vertical-align: middle; 
+   display: inline;
+   vertical-align:middle; 
 }
 
 main{
+    padding-top: 30px;
     background-color: rgb(245,247,248);
+    padding-bottom: 20px;
 }
 
 .center{
@@ -21,6 +20,8 @@ main{
 
 .option{
     background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .button{
     border: none;
@@ -41,6 +42,15 @@ main{
 
 .list{
     background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+ul{
+    margin-top: 2px;
+}
+li{
+    margin-top: 10px;
+    
 }
 
 
