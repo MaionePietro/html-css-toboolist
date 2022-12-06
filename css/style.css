@@ -1,17 +1,31 @@
 *{
     font-family: sans-serif;
 }
-h1{
-    display: inline;
+img{
+    vertical-align: auto;
 }
+h1{
+   display: inline-block;
+   vertical-align: middle; 
+}
+
 main{
     background-color: rgb(245,247,248);
 }
 
+.center{
+    margin: 0 auto;
+    max-width: 700px;
+    padding-left: 40px;
+}
 
+.option{
+    background-color: white;
+}
 .button{
     border: none;
     border-radius: 4px;
+    padding: 5px 10px;
 
 }
 .uno{
@@ -22,5 +36,9 @@ main{
     background-color: white;
     color: rgb(198,204,209);
     border: 1px solid rgb(198,204,209);
-
 }
+
+.list{
+    background-color: white;
+}
+
